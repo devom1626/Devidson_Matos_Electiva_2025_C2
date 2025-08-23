@@ -1,0 +1,195 @@
+(footprint "RS485-MODULE-DEVO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "RSMODFOOT"
+		(at -13 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6586dcc6-6640-4bdf-be6e-bfed827213d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "rs485mod"
+		(at -13 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82f1bafb-e948-46cd-90dd-220d997fb144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9438720b-5890-498e-8947-4f22ac428d5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afd48ff6-9701-4c1f-8481-26af8a2195e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -16.5)
+		(end 19.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7313904e-f275-414f-8ac9-ebe0fd79f63f")
+	)
+	(fp_text user "RS-485-MODULE"
+		(at 4 -14.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a4e99f1-1858-42ed-a16d-6e482d51a3ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "x"
+		(at 13 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81a5a9c7-511a-4dc0-8ea5-32e4b2fb7a42")
+		(effects
+			(font
+				(face "Britannic Bold")
+				(size 4 4)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "x" 0
+			(polygon
+				(pts
+					(xy 15.572609 -2.946782) (xy 14.754884 -1.838653) (xy 15.690823 -0.18) (xy 14.530669 -0.18) (xy 14.018004 -1.074417)
+					(xy 13.358792 -0.18) (xy 12.957013 -0.18) (xy 13.845568 -1.383628) (xy 12.967027 -2.946782) (xy 14.132798 -2.946782)
+					(xy 14.580006 -2.153726) (xy 15.17083 -2.946782)
+				)
+			)
+		)
+	)
+	(fp_text user "ZORION"
+		(at 8 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2c66fbe-7ec9-483d-8e66-97fc10857a35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "RS485"
+		(at -13 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "48a107b2-19a1-4ce9-ad87-c261b0a08ddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.13 -3.17)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84b741d1-a663-448f-85ed-1c3e9fc192b1")
+	)
+	(pad "1" thru_hole circle
+		(at 17.37 -8.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e63e03e-953c-4b31-9625-149a121b31d2")
+	)
+	(pad "2" thru_hole circle
+		(at 2.13 -5.71)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a9a69c2-51d5-44d2-a1e2-2fa708df6a26")
+	)
+	(pad "2" thru_hole circle
+		(at 17.37 -5.71)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5ab87ef-3c74-4317-9a21-42066479db91")
+	)
+	(pad "3" thru_hole circle
+		(at 2.13 -8.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf9629b3-bc7c-4ad7-86ea-f3c28d1f306f")
+	)
+	(pad "3" thru_hole circle
+		(at 17.37 -3.17)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aadc560f-97b0-467c-a647-3655f8ee8784")
+	)
+	(pad "4" thru_hole circle
+		(at 2.13 -10.79)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0309057d-47a1-42cb-af25-6cdb60f8827a")
+	)
+	(pad "5" thru_hole circle
+		(at 2.13 -13.33)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aec8fe56-7c12-45c2-adaa-02e0473f34b5")
+	)
+	(embedded_fonts no)
+)
